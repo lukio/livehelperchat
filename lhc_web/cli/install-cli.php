@@ -88,7 +88,7 @@ function main($ini_file) {
         $install->print_errors($response);
     }
 
-    exit(1);
+    exit(0);
 }
 
 if (validate_args($argv, $argc)) {
